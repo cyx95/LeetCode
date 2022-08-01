@@ -29,3 +29,13 @@ var guessNumber = function(n) {
         }
     }
 };
+
+// var guessNumber = function (n) {
+    
+//     for (let i = 0; i < n; i++) {
+//         if (guess(i) === 0) {
+//             return i;
+//         }
+//     }
+//     return n;
+// }
