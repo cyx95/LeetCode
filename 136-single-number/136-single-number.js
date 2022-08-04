@@ -5,10 +5,6 @@
 var singleNumber = function(nums) {
     let hash = {};
     
-    if (nums.length === 1) {
-        return nums[0]
-    }
-    
     for (let i = 0; i < nums.length; i++) {
         if (!hash[nums[i]]) {
             hash[nums[i]] = 1
